@@ -35,6 +35,6 @@ public class ConfigTagsRelationMapperByDaMeng extends BaseConfigTagsRelationMapp
 
     @Override
     public String[] getPrimaryKeyGeneratedKeys() {
-        return PrimaryKeyConstant.UPPER_RETURN_PRIMARY_KEYS;
+        return PrimaryKeyConstant.LOWER_RETURN_PRIMARY_KEYS;
     }
 }

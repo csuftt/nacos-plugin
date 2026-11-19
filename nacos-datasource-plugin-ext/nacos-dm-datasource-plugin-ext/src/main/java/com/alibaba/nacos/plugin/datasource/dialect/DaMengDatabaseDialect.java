@@ -29,7 +29,7 @@ public class DaMengDatabaseDialect extends AbstractDatabaseDialect {
 
     @Override
     public String[] getReturnPrimaryKeys() {
-        return PrimaryKeyConstant.UPPER_RETURN_PRIMARY_KEYS;
+        return PrimaryKeyConstant.LOWER_RETURN_PRIMARY_KEYS;
     }
 
     @Override

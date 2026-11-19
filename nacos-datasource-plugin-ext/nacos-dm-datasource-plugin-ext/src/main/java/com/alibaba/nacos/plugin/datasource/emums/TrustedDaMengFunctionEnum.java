@@ -31,7 +31,7 @@ public enum TrustedDaMengFunctionEnum {
     /**
      * NOW().
      */
-    NOW("NOW()", "SYSDATE");
+    NOW("NOW()", "CURRENT_TIMESTAMP");
 
     private static final Map<String, TrustedDaMengFunctionEnum> LOOKUP_MAP = new HashMap<>();
 
